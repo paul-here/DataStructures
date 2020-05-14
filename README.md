@@ -26,3 +26,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Mark Allen Weiss - 'Data Structures & Problem Solving Using Java'
 * https://www.geeksforgeeks.org/
+* https://gist.github.com/PurpleBooth -- README-Template.md
