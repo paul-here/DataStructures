@@ -5,9 +5,11 @@
 * Date: 05/13/2020
 */
 
-#include <Stack.cpp>
+#include "Stack.h"
+#include <iostream>
 
-// temporary main for basic testing -- should be moved into StackDemo.cpp
+using namespace std;
+
 int main() {
 
     Stack<int> s = Stack<int>();
