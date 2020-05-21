@@ -1,6 +1,6 @@
 /*
 * Title: Stack.cpp
-* Abstract: A implementation of an array based Stack.
+* Abstract: An implementation of an array based Stack.
 * Author: Paul Whipp
 * Date: 05/13/2020
 */
@@ -77,11 +77,3 @@ int Stack<T>::getSize() {
     return size;
 }
 
-// temporary main for basic testing -- should be moved into StackDemo.cpp
-int main() {
-
-    Stack<int> s = Stack<int>();
-
-    s.push(5);
-    cout << s.pop() << endl;
-}
