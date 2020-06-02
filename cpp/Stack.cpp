@@ -5,29 +5,10 @@
 * Date: 05/13/2020
 */
 
-/*
-template <typename T>
-class Stack {
-
-    private:
-        
-        T* ptr;
-        int size;
-        int topIndex;
-
-    public:
-
-        Stack<T>();
-        void push(T item);
-        T pop();
-        T top();
-        void empty();
-        int getSize();
-};
-*/
+#include "Stack.h"
 
 // default constructor
-template<typename T>
+template<class T>
 Stack<T>::Stack(){
     
     ptr = new T[10];
@@ -36,7 +17,7 @@ Stack<T>::Stack(){
 }
 
 // add an item to the stack
-template<typename T>
+template<class T>
 void Stack<T>::push(T item) {
 
     // does not handle increasing array size
@@ -44,7 +25,7 @@ void Stack<T>::push(T item) {
 }
 
 // remove and return an item from the top of the stack
-template<typename T>
+template<class T>
 T Stack<T>::pop() {
 
     // using lazy deletion, unsure how I should handle excessive array size
@@ -52,14 +33,14 @@ T Stack<T>::pop() {
 }
 
 // return the top item in the stack without removing
-template<typename T>
+template<class T>
 T Stack<T>::top() {
 
     return ptr[topIndex];
 }
 
 // empty the stack
-template<typename T>
+template<class T>
 void Stack<T>::empty() {
 
     size = 0;
@@ -69,7 +50,7 @@ void Stack<T>::empty() {
 }
 
 // return the size of the stack
-template<typename T>
+template<class T>
 int Stack<T>::getSize() {
     return size;
 }

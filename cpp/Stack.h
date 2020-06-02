@@ -1,7 +1,9 @@
 #ifndef STACK_H
 #define STACK_H
 
-template <typename T>
+#include <ostream>
+
+template <class T>
 class Stack {
 
     private:
